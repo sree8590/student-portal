@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Student Portal{% endblock %}</title>
+</head>
+<body>
+    <h1>Student Portal</h1>
+
+    <nav>
+        <a href="/">Home</a> |
+        <a href="/about/">About</a> |
+        <a href="/contact/">Contact</a>
+    </nav>
+
+    <hr>
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
